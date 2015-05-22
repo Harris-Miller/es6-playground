@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+	</head>
+	<body>
+
+		<main class="container">
+			<section class="row">
+				<div class="col-md-12">
+					<h1>ES6 Module Testing</h1>
+				</div>
+			</section>
+		</main>
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="../bower_components/lodash/lodash.js"></script>
+		<script src="../bower_components/loader.js/loader.js"></script>
+
+		<script src="vendor.js"></script>		
+
+		<!--
+		<script src="math.js"></script>
+		<script src="multi.js"></script>
+		<script src="test.js"></script>
+		<script src="person.js"></script>
+		<script src="angry.js"></script>
+		-->
+		<script src="app.js"></script>
+
+		<script>
+			var test = require('test')['default'];
+			test.speak();
+		</script>
+	</body>
+</html>
